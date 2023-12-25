@@ -175,7 +175,7 @@ html, body {
 .splace{
   position: absolute;
   left: 390px;
-  top: 373px;
+  top: 363px;
   display: none;
   font-family: "Arial Black", sans-serif;
   width: 200px;
@@ -184,7 +184,7 @@ html, body {
 .tplace{
   position: absolute;
   left: 930px;
-  top: 400px;
+  top: 390px;
   display: none;
   font-family: "Arial Black", sans-serif;
   width: 200px;
