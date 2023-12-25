@@ -3,28 +3,28 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Розыгрыш GEO TEAM</title>
-  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="/css/stylesheet.css">
 </head>
 <body>
   <div id="hider" class="hider">
     <div id="randomheader" class="randomheader">
-      <img class="geoimg" src="./emblem.png" alt="" srcset="">
+      <img class="geoimg" src="/img/emblem.png" alt="" srcset="">
       <h2 class="georgian-text">Розыгрыш GEO TEAM</h2>
     </div>
-  
-  
+
     <div id="randomizer" class="randomizer">
       <div class="leftcont">
         <h1 id="hinktext" class="hinktext">Нажми на хинкальку</h1>
         <div class="hinkalicont">
-          <img id="hinkali" class="hinkali" src="./hinkali.png" alt="" srcset="">
+          <img id="hinkali" class="hinkali" src="/img/hinkali.png" alt="" srcset="">
         </div>
       </div>
       <div class="rightcont">
         <input id="randres" class="randres" disabled>
-        <img id="gruzin" class="gruzin" src="./gruzin.png" alt="" srcset="">
+        <img id="gruzin" class="gruzin" src="/img/gruzin.png" alt="" srcset="">
       </div>
     </div>
+
     <div class="tablecont">
       <table id="myTable" class="myTable">
         <tbody>
@@ -34,12 +34,28 @@
             <th class="column-title">Количество жизней</th>
           </tr>
         </tbody>
-      </div>
+      </table>
+    </div>
   </div>
-      <div id="victory" class="victory">
-      С победой
-      </div>
 
-    <script src="./script.js"></script>
+    <div id="victory" class="victory">
+      <div id="victorytext" class="victorytext">${winner}, с победой! Геймпад твой!</div>
+      <button id="continue" class="continue">Продолжить</button>
+    </div>
+    <div id="tplace" class="tplace">
+      <h2 id="tplacetext">third</h2>
+    </div>
+    <div id="splace" class="splace">
+      <h2 id="splacetext">second</h2>
+    </div>
+    <div id="fplace" class="fplace">
+      <h2 id="fplacetext">first</h2>
+    </div>
+    <div id="winnerimgcont" class="winnerimgcont">
+      <img class="winnerimg" src="/img/pedestal.png" alt="" srcset="">
+    </div>
+
+
+  <script src="/script.js"></script>
 </body>
 </html>

@@ -122,10 +122,10 @@ html, body {
   }
   
   .victory{
+    display: none;
     top: 250px;
     left: 260px;
     position: absolute;
-    display: none;
     font-size: 70px;
     background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 56%,rgba(143,2,34,1) 56%);
     width: 900px;
@@ -143,4 +143,62 @@ html, body {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+.continue{
+  font-size: 40px;
+  font-family: "Arial Black", sans-serif;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  background: #000000;
+  color: white;
+}
+
+.continue:hover{
+  background: white;
+  color: black;
+}
+.continue:active{
+  font-size: 30px;
+}
+
+.fplace{
+  position: absolute;
+  left: 660px;
+  top: 260px;
+  display: none;
+  font-family: "Arial Black", sans-serif;
+  width: 200px;
+  text-align: center;
+}
+.splace{
+  position: absolute;
+  left: 390px;
+  top: 373px;
+  display: none;
+  font-family: "Arial Black", sans-serif;
+  width: 200px;
+  text-align: center;
+}
+.tplace{
+  position: absolute;
+  left: 930px;
+  top: 400px;
+  display: none;
+  font-family: "Arial Black", sans-serif;
+  width: 200px;
+  text-align: center;
+} 
+.winnerimgcont{
+  display: none;
+  position: absolute;
+  left: 8px;
+  bottom: 10px;
+  width: 1500px;
+  height: 1100px;
+}
+.winnerimg{
+  width: 1500px;
+  height: 1100px;
 }
