@@ -1,0 +1,146 @@
+/* Общие стили */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+  
+  /* Заголовок */
+  
+  .randomheader {
+    background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 56%,rgba(143,2,34,1) 56%);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Рандомайзер */
+  
+  
+  
+  .randomizer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .randombutton {
+    position: absolute;
+    left: 620px;
+    top: 162px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Arial Black", sans-serif;
+    margin-top: 60px;
+  }
+  
+
+
+  
+  .randres {
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+  }
+  .hinktext{
+    font-size: 20px;
+  }
+  
+  /* Таблица */
+  .tablecont{
+    display: flex;
+  }
+  
+  .myTable {
+    align-self: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .myTable th, .myTable td {
+    text-align: center;
+  }
+  
+  
+  .myTable th, .myTable td {
+    border: 1px solid #000000;
+    padding: 0.5rem;
+  }
+  
+  .column-title {
+    width: 20%;
+  }
+  
+  /* Грузинские элементы */
+  
+.geoimg{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.gruzin{
+    width: 135px;
+    height: 135px;
+}
+.hinkali{
+    width: 99px;
+    height: 90px;
+}
+.hinkalicont{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+  
+  .georgian-text {
+    color: #ffffff;
+    font-family: "Arial Black", sans-serif;
+    width: 100%;
+  }
+  
+  .georgian-text span {
+    font-size: 1.2rem;
+  }
+  
+  .victory{
+    top: 250px;
+    left: 260px;
+    position: absolute;
+    display: none;
+    font-size: 70px;
+    background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 56%,rgba(143,2,34,1) 56%);
+    width: 900px;
+    color: white;
+    font-family: "Arial Black", sans-serif;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+.leftcont{
+    display: flex;
+    flex-direction: column;
+}
+.rightcont{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
