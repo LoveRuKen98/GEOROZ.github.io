@@ -70,6 +70,7 @@ hinkali.addEventListener('click', () => {
   randomResult.value = randomID;
   randomResultSecond.value = randomID;
   hinkali.style.position = 'fixed';
+  hinkText.style.display = 'none';
 
   let player = players[randomID - 1];
 
