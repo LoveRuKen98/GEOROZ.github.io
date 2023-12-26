@@ -106,6 +106,7 @@ hinkali.addEventListener('click', () => {
     gruzin.style.display = 'none';
     hinkali.style.display = 'none';
     randomResult.style.display = 'none';
+    randomResultSecond.style.display = 'none';
     hinkText.style.display = 'none';
     hider.style.display = 'flex';
     hider.style.backgroundColor = '#454545';
