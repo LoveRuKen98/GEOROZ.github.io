@@ -11,11 +11,9 @@ const players = [];
 const winners = [];
 const firstPlace = document.getElementById('fplace');
 const firstPlaceText = document.getElementById('fplacetext');
-const secondPlace = document.getElementById('splace');
 const secondPlaceText = document.getElementById('splacetext');
-const thirdPlace = document.getElementById('tplace');
 const thirdPlaceText = document.getElementById('tplacetext');
-const winnerImg = document.getElementById('winnerimgcont');
+const winnerEmblem = document.getElementById('winneremblemcont');
 
 function addPlayer(number, name, life) {
   const row = table.insertRow();
@@ -75,11 +73,15 @@ hinkali.addEventListener('click', () => {
   if (players.length == 1) {
     let winner = players[0].name;
     table.style.display = 'none';
+    gruzin.style.display = 'none';
+    hinkali.style.display = 'none';
+    randomResult.style.display = 'none';
+    hinkText.style.display = 'none';
     hider.style.backgroundColor = '#454545';
-    hider.style.width = '10000px';
-    hider.style.height = '10000px';
+    hider.style.width = '100%';
+    hider.style.height = '1000px';
     victoryPlate.style.display = 'block';
-    victoryText.textContent = `${winner}, с победой! Геймпад твой!`;
+    victoryText.textContent = `${winner}, поздравляем с победой!`;
     winners.push(winner);
 
   }
@@ -98,11 +100,9 @@ function updatePlayerNumbers(startIndex) {
 continueButton.addEventListener('click', () => {
   victoryPlate.style.display = 'none';
   hider.style.display = 'none';
-  firstPlace.style.display = 'block';
-  firstPlaceText.textContent = `${winners[2]}`;
-  secondPlace.style.display = 'block';
-  secondPlaceText.textContent = `${winners[1]}`;
-  thirdPlace.style.display = 'block';
-  thirdPlaceText.textContent = `${winners[0]}`;
-  winnerImg.style.display = 'block';
+  winnerEmblem.style.display = 'flex';
+  firstPlace.style.display = 'flex';
+  firstPlaceText.textContent = `Первое место: ${winners[2]}. Приз - Sony DualSense!`;
+  secondPlaceText.textContent = `Второе место: ${winners[1]}. Приз - 2000 рублей!`;
+  thirdPlaceText.textContent = `Третье место: ${winners[0]}. Приз - 1000 рублей!`;
 })

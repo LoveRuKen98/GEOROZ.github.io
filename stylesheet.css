@@ -164,41 +164,50 @@ html, body {
 }
 
 .fplace{
-  position: absolute;
-  left: 660px;
-  top: 260px;
+  margin-top: 80px;
   display: none;
   font-family: "Arial Black", sans-serif;
-  width: 200px;
+  width: 100%;
   text-align: center;
+  flex-direction: column;
+  gap: 70px;
 }
-.splace{
-  position: absolute;
-  left: 390px;
-  top: 363px;
+
+.fplacetext{
+  align-self: center;
+}
+
+
+.splacetext{
+  align-self: center;
+}
+.tplacetext{
+  align-self: center;
+}
+
+.winneremblemcont{
+  background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 56%,rgba(143,2,34,1) 56%);
   display: none;
-  font-family: "Arial Black", sans-serif;
+  width: 100%;
+}
+
+.winneremblem{
   width: 200px;
-  text-align: center;
+  height: 200px;
+  margin: 0 auto;
 }
-.tplace{
-  position: absolute;
-  left: 930px;
-  top: 390px;
-  display: none;
-  font-family: "Arial Black", sans-serif;
-  width: 200px;
-  text-align: center;
-} 
-.winnerimgcont{
-  display: none;
-  position: absolute;
-  left: 8px;
-  bottom: 10px;
-  width: 1500px;
-  height: 1100px;
+
+.dualcont{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
-.winnerimg{
-  width: 1500px;
-  height: 1100px;
+.dualsense{
+  width: 118px;
+}
+.kasar{
+  width: 187px;
+}
+.dvakasara{
+  width: 187px;
 }
