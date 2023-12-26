@@ -48,7 +48,7 @@ html, body {
 
   
   .randres {
-    width: 24px;
+    width: 34px;
     height: 24px;
     background-color: #ffffff;
     color: #000000;
@@ -57,12 +57,34 @@ html, body {
     text-align: center;
     font-size: 30px;
     position: absolute;
-    left: 30px;
+    left: 23px;
     top: 9px;
   }
+
+  .randrestwo{
+    width: 34px;
+    height: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 427px;
+    top: 219px;
+    background-color: transparent;
+    position: fixed;
+  }
+
+  .randcont{
+    position: relative;
+  }
+
   .hinktext{
     font-size: 20px;
   }
+
   
   /* Таблица */
   .tablecont{
@@ -103,6 +125,7 @@ html, body {
 .hinkali{
     width: 99px;
     height: 90px;
+    left: 335px;
 }
 .hinkalicont{
     width: 100px;
@@ -112,7 +135,9 @@ html, body {
 
   
   .georgian-text {
-    color: #ffffff;
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: "Arial Black", sans-serif;
     width: 100%;
   }
@@ -140,6 +165,7 @@ html, body {
 .leftcont{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .rightcont{
     display: flex;
