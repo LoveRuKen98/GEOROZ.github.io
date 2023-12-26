@@ -77,6 +77,7 @@ hinkali.addEventListener('click', () => {
     hinkali.style.display = 'none';
     randomResult.style.display = 'none';
     hinkText.style.display = 'none';
+    hider.style.display = 'flex';
     hider.style.backgroundColor = '#454545';
     hider.style.width = '100%';
     hider.style.height = '1000px';

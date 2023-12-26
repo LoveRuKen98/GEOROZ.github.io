@@ -120,12 +120,14 @@ html, body {
   .georgian-text span {
     font-size: 1.2rem;
   }
+
+  .hider{
+    flex-direction: column;
+  }
   
   .victory{
     display: none;
-    top: 250px;
-    left: 260px;
-    position: absolute;
+    align-self: center;
     font-size: 70px;
     background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 56%,rgba(143,2,34,1) 56%);
     width: 900px;
