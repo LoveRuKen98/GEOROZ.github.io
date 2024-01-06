@@ -111,7 +111,7 @@ hinkali.addEventListener('click', () => {
     updatePlayerNumbers(randomID);
     if (players.length >= 2)
       setTimeout(() => {
-        alert(`Участник ${player.name} выбыл! Пока пока :)`);
+        alert(`${player.name} выбыл! Пока пока :)`);
       }, 200)
   }
 
