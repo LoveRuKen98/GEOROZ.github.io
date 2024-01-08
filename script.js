@@ -32,7 +32,7 @@ function addPlayer(number, name, life) {
 
 addPlayer(1, 'Француз', 1);
 addPlayer(2, 'Ико', 1);
-addPlayer(3, 'Богдаксару', 11);
+addPlayer(3, 'Богдаксару', 30);
 addPlayer(4, 'Ленс', 1);
 addPlayer(5, 'Дагстайл', 1);
 addPlayer(6, 'Кирги', 1);
@@ -80,6 +80,9 @@ addPlayer(47, 'Mersi', 1);
 addPlayer(48, 'Елизавета', 1);
 addPlayer(49, 'Nikitos', 1);
 addPlayer(50, 'Andruxa', 1);
+addPlayer(51, 'TeppopиcT_102', 5);
+addPlayer(52, 'Natali', 1);
+addPlayer(53, 'hellstaf', 1);
 
 
 function getRndInteger(min, max) {
