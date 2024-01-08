@@ -65,7 +65,7 @@ addPlayer(32, 'Gid', 1);
 addPlayer(33, 'Nerv', 1);
 addPlayer(34, 'JohnKramer', 1);
 addPlayer(35, 'Dannysky2', 1);
-addPlayer(36, 'Пандора', 1);
+addPlayer(36, 'Пандора', 51);
 addPlayer(37, 'Виссарион', 1);
 addPlayer(38, 'theoneplay', 1);
 addPlayer(39, 'Санечка Милнер', 1);
@@ -73,6 +73,13 @@ addPlayer(40, 'Не Чушпан', 1);
 addPlayer(41, 'Umbertoto', 1);
 addPlayer(42, 'Sabr_722', 1);
 addPlayer(43, 'Сандраин', 1);
+addPlayer(44, 'Yuriy_kh', 1);
+addPlayer(45, 'Starik', 1);
+addPlayer(46, 'El', 1);
+addPlayer(47, 'Mersi', 1);
+addPlayer(48, 'Елизавета', 1);
+addPlayer(49, 'Nikitos', 1);
+addPlayer(50, 'Andruxa', 1);
 
 
 function getRndInteger(min, max) {
