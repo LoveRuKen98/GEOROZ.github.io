@@ -83,6 +83,8 @@ addPlayer(50, 'Andruxa', 1);
 addPlayer(51, 'TeppopиcT_102', 5);
 addPlayer(52, 'Natali', 1);
 addPlayer(53, 'hellstaf', 1);
+addPlayer(54, 'MAFIA', 1);
+addPlayer(55, 'Vace_spb', 1);
 
 
 function getRndInteger(min, max) {
